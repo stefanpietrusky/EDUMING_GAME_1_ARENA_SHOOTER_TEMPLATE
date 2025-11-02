@@ -61,8 +61,8 @@ Below is a short description of the key objects and what each one does.
 33. `obj_paper` — Small ambient prop with randomized sprite/scale.
 34. `obj_particle_handler` — Generic particle/VFX helper (e.g., smoke/trail hooks).
 35. `obj_player` — The hero: input (kb/mouse/gamepad/touch), movement, aiming, firing, reloads, collisions; holds letter‑delivery flags for the mini‑game.
-36. `obj_player_shoot` — Fire control: rate‑limits shots, spawns projectiles, triggers muzzle VFX/SFX.
-37. `obj_projectile` — Bullet logic: travel/rotation, damage, hit effects, screen shake, self‑destruct on impact.
+36. `obj_player_shoot` — Fire control: rate-limits shots, spawns projectiles, triggers muzzle VFX/SFX.
+37. `obj_projectile` — Bullet logic: travel/rotation, damage, hit effects, screen shake, self-destruct on impact.
 38. `obj_reload_hud_element` — Reload prompt that follows the player and fades in/out.
 39. `obj_Robo` — Companion/NPC: idle bob; switches to a celebratory "love" state when the letter task is completed; pauses when the game is paused.
 40. `obj_RoboButton` — Button that opens/sequences the "How‑to‑play" tutorial; hover/click scaling & SFX.
@@ -92,6 +92,7 @@ To publish your project to **GX.GAMES**, you can follow this official guide:
 
 - **Code:** Licensed under the **MIT License**. See `LICENSE`.
 - **Assets (art, audio, fonts, logo, example GIFs, etc.):** Licensed under **CC BY‑NC‑ND** (Attribution–NonCommercial–NoDerivatives). See `ASSETS_LICENSE`.
+- **Sound Effects:** Unless otherwise noted, sound effects originate from [ZapSplat](https://www.zapsplat.com/). If you use these SFX in your project or derivative works, you **must** include a visible reference to the site in your credits (e.g., “Sound effects by ZapSplat.com — https://www.zapsplat.com/”).
 
 > **Note:** You may use/modify the code freely under MIT, but the assets are **not** free for commercial use or redistribution/modification. Replace or remove any proprietary assets before publishing builds.
 
@@ -101,3 +102,13 @@ To publish your project to **GX.GAMES**, you can follow this official guide:
 
 If you use or adapt EDUMING in academic or educational contexts, please add a short acknowledgment and a link back to this repository.
 
+### Citation File (`CITATION.cff`)
+
+This repository includes a `CITATION.cff` file in the root directory. You can:
+- Use GitHub’s **“Cite this repository”** button to export BibTeX/APA/EndNote entries, or
+- Parse `CITATION.cff` directly in your reference manager to cite the software appropriately.
+
+---
+
+## References
+[1] Pietrusky, S. (2025). *Learning by gaming, coding and making with EDUMING: A new approach to utilising atypical digital games for learning*. arXiv:2504.13878 (cs.HC). https://arxiv.org/abs/2504.13878
