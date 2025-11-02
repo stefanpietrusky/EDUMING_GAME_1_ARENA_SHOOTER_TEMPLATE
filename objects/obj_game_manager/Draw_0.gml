@@ -1,0 +1,1 @@
+draw_sprite(sVignette, 0, x, y);
