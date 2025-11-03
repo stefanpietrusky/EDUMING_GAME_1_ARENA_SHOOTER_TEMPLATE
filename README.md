@@ -14,11 +14,11 @@ _**Learning by Gaming, Coding, and Making.**_
 
 ### Base Template
 
-![EDUMING Base Template Gameplay](EDUMING_GAME_TEMPLATE1.gif)
+![EDUMING Base Template Gameplay](EDUMING_GAME_TEMPLATE1.mp4)
 
 ### Customized Example
 
-![EDUMING Customized Gameplay Example](EDUMING_GAME_EXAMPLE1.gif)
+![EDUMING Customized Gameplay Example](EDUMING_GAME_EXAMPLE1.mp4)
 
 ---
 
