@@ -6,7 +6,7 @@ _**Learning by Gaming, Coding, and Making.**_
 
 > **Project description:**
 >
-> EDUMING is a constructionist game template concept inspired by Seymour Papert’s idea that learning is most powerful when learners create tangible artifacts and share them in social contexts. Instead of delivering a closed “serious game”, this repository provides **EDUMING 1 [PCLQ]** as an adaptable 2D arena-shooter template built with GameMaker Studio 2. The template includes a standardized learning mechanic (currently spelling / letter selection) that can be modified, extended, or even replaced. Educators and students are encouraged not only to _play_ the game, but also to _adapt and extend_ it step by step—e.g., by changing difficulty, adding mechanics, or integrating new task types—before publishing their own variants via GX.GAMES.
+> EDUMING is a constructionist game template concept inspired by Seymour Papert’s idea that learning is most powerful when learners create tangible artifacts and share them in social contexts. Instead of delivering a closed “serious game”, this repository provides **EDUMING 1 [PCLQ]** as an adaptable 2D arena-shooter template built with GameMaker Studio 2. The template includes a standardized learning mechanic (currently spelling / letter selection) that can be modified, extended, or even replaced. Educators and students are encouraged not only to _play_ the game, but also to _adapt and extend_ it step by step e.g., by changing difficulty, adding mechanics, or integrating new task types, before publishing their own variants via GX.GAMES.
 
 > **⚠️ Work in Progress – Game Template**
 >
@@ -36,9 +36,9 @@ You can try a customized example of **EDUMING 1 [PCLQ]** directly in the browser
 The current template implements a **Fetch-and-Deliver** learning mechanic:
 
 - The player moves through an arena and destroys enemies.  
-- Defeated enemies drop **letter chips** that represent potential answers.  
+- Defeated enemies drop **letters** that represent potential answers.  
 - A task in the HUD indicates **which letter is currently required**.  
-- The player must pick up the correct letter and deliver it to the central **Drop Zone (EDUMING)**.  
+- The player must pick up the correct letter and deliver it to the central **Drop Zone**.  
 - Correct deliveries award additional points; incorrect deliveries may deduct points.
 
 In this version, the focus is on **spelling and initial letter recognition**, but the mechanic is designed as a reusable pattern. By adjusting the objects, variables and assets, the same template can be adapted for numbers, vocabulary, or completely different subject areas.
@@ -99,7 +99,7 @@ Below is a short description of the key objects and what each one does.
 
 ## Requirements
 
-- **GameMaker Studio 2** — Depending on your system, you can download a free version. See the official GameMaker website for details and installers [Link](https://gamemaker.io/en)
+- **GameMaker Studio 2** Depending on your system, you can download a free version. See the official GameMaker website for details and installers [Link](https://gamemaker.io/en)
 
 ---
 
