@@ -148,6 +148,8 @@ If you want to adapt the current spelling mechanic:
   - player health/damage in `obj_player`,
   - scoring rules in the mini-game logic.
 
+![EDUMING Template Learning Mechanic](images/EDUMING_GAME_TEMPLATE1_IDE1.png)
+
 ---
 
 ## Publish to GX.GAMES
