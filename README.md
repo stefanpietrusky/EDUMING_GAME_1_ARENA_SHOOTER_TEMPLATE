@@ -14,7 +14,7 @@ _**Learning by Gaming, Coding, and Making.**_
 
 ### Base Template
 
-![EDUMING Base Template](images/DUMING_GAME_TEMPLATE1.png)
+![EDUMING Base Template](images/EDUMING_GAME_TEMPLATE1.png)
 
 ### Customized Example
 
