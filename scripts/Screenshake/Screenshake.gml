@@ -6,7 +6,7 @@
 
 function screenshake(_time, _magnitude, _fade)
 {
-   with (oScreenshake)
+   with (obj_screenshake)
    {
       shake = true;
       shake_time = _time;
