@@ -76,7 +76,7 @@ Below is a short description of the key objects and what each one does.
 
 ## Requirements
 
-- **GameMaker Studio 2** — Depending on your system, you can download a free version. See the official GameMaker website for details and installers (Link)[https://gamemaker.io/en]
+- **GameMaker Studio 2** — Depending on your system, you can download a free version. See the official GameMaker website for details and installers [Link](https://gamemaker.io/en)
 
 ---
 
@@ -84,7 +84,7 @@ Below is a short description of the key objects and what each one does.
 
 To publish your project to **GX.GAMES**, you can follow this official guide:
 
-- **Publish to GX.GAMES tutorial (Link)[https://gamemaker.io/de/tutorials/publish-to-gxgames-tutorial]**
+- **Publish to GX.GAMES tutorial [Link](https://gamemaker.io/de/tutorials/publish-to-gxgames-tutorial)**
 
 ---
 
