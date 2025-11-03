@@ -130,6 +130,10 @@ To use this template, you only need **GameMaker Studio 2**.
    - Adapt objects (e.g. `obj_MissingLetter`, `obj_game_manager`, `obj_Letter`, `obj_DZ`, `obj_Robo`) and assets to match your learning goals.  
    - When you are ready, you can publish your version to **GX.GAMES** (see section *Publish to GX.GAMES*).
 
+### Optional: AI-assisted code analysis and refactoring
+
+If you would like to analyze or adapt the project with AI tools (e.g. code assistants / LLMs), you can use the helper script `code.py`. Set the `project_path` variable inside `code.py` to the root folder of your local EDUMING project. When you run the script, it collects the relevant source files and writes them into a single `.txt` file. You can then provide this consolidated text file to an AI tool of your choice to review, document, refactor, or further develop the code more easily.
+
 ## Who Is This Template For?
 
 - **Educators / Teacher Trainers** who want to use a moddable game instead of a fixed “serious game”.  
