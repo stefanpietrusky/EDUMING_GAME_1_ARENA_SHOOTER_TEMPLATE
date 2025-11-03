@@ -8,7 +8,7 @@ _**Learning by Gaming, Coding, and Making.**_
 >
 > EDUMING is a constructionist game template concept inspired by Seymour Papert’s idea that learning is most powerful when learners create tangible artifacts and share them in social contexts. Instead of delivering a closed “serious game”, this repository provides **EDUMING 1 [PCLQ]** as an adaptable 2D arena-shooter template built with GameMaker Studio 2. The template includes a standardized learning mechanic (currently spelling / letter selection) that can be modified, extended, or even replaced. Educators and students are encouraged not only to _play_ the game, but also to _adapt and extend_ it step by step e.g., by changing difficulty, adding mechanics, or integrating new task types, before publishing their own variants via GX.GAMES.
 
-> **⚠️ Work in Progress – Game Template**
+> **⚠️ Work in Progress (Game Template)**
 >
 > This EDUMING game template is under active development. New learning tasks, mechanics and code refactorings will be added step by step. While the project is already available for educational and research purposes, expect changes to the functional structure and some technical design decisions to be revised over time. If you use this template in teaching or research, please check back regularly for updates and versioning information.
 
