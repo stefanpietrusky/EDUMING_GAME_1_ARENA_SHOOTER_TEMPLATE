@@ -101,6 +101,53 @@ Below is a short description of the key objects and what each one does.
 
 - **GameMaker Studio 2** Depending on your system, you can download a free version. See the official GameMaker website for details and installers [Link](https://gamemaker.io/en)
 
+## Getting Started
+
+To use this template, you only need **GameMaker Studio 2**.
+
+1. **Install GameMaker Studio 2**  
+   - Download and install GameMaker Studio 2 from the official website.  
+   - A free version is usually sufficient for trying out the template.
+
+2. **Download this repository**  
+   - Either clone it via Git:  
+     `git clone https://github.com/stefanpietrusky/EDUMING_GAME_1_ARENA_SHOOTER_TEMPLATE.git`  
+   - or use **“Download ZIP”** on GitHub and extract the folder on your machine.
+
+3. **Open the project in GameMaker Studio 2**  
+   - Start GameMaker Studio 2.  
+   - Go to **File → Open** and select the `.yyp` project file from this repository.  
+   - GameMaker will load all rooms, objects, sprites, and scripts.
+
+4. **Run the base template**  
+   - Press **Play** (Run) in GameMaker to test **EDUMING 1 [PCLQ]**.  
+   - You can now play the arena shooter with the current learning mechanic.
+
+5. **Create your own variant**  
+   - Duplicate this project or create a new branch/fork.  
+   - Adapt objects (e.g. `obj_MissingLetter`, `obj_game_manager`, `obj_Letter`, `obj_DZ`, `obj_Robo`) and assets to match your learning goals.  
+   - When you are ready, you can publish your version to **GX.GAMES** (see section *Publish to GX.GAMES*).
+
+## Who Is This Template For?
+
+- **Educators / Teacher Trainers** who want to use a moddable game instead of a fixed “serious game”.  
+- **Students / Pre-service teachers** who should learn by *modifying* and *extending* an existing game.  
+- **Researchers** interested in constructionist, game-based learning scenarios.
+
+## Basic Customization (First Steps)
+
+If you want to adapt the current spelling mechanic:
+
+- Start with `obj_MissingLetter` (letter task logic) and `obj_game_manager` (overall game and wave setup).  
+- Replace the letter set and task logic to work with:
+  - numbers (e.g. collect the correct result),
+  - vocabulary (e.g. first letter of a word),
+  - or other subject-specific symbols.  
+- Adjust difficulty by changing:
+  - enemy spawn rate in `obj_enemy_spawner`,
+  - player health/damage in `obj_player`,
+  - scoring rules in the mini-game logic.
+
 ---
 
 ## Publish to GX.GAMES
