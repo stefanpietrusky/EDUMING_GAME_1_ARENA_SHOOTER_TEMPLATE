@@ -7,6 +7,8 @@ _**Learning by Gaming, Coding, and Making.**_
 > **Project description:**
 >
 > EDUMING is a constructionist game template concept inspired by Seymour Papert’s idea that learning is most powerful when learners create tangible artifacts and share them in social contexts. Instead of delivering a closed “serious game”, this repository provides **EDUMING 1 [PCLQ]** as an adaptable 2D arena-shooter template built with GameMaker Studio 2. The template includes a standardized learning mechanic (currently spelling / letter selection) that can be modified, extended, or even replaced. Educators and students are encouraged not only to _play_ the game, but also to _adapt and extend_ it step by step e.g., by changing difficulty, adding mechanics, or integrating new task types, before publishing their own variants via GX.GAMES.
+>  
+> **The core movement and shooting setup is adapted from the official “TwinStick Shooter” template provided with GameMaker Studio 2.**
 
 > **⚠️ Work in Progress (Game Template)**
 >
@@ -120,7 +122,7 @@ To use this template, you only need **GameMaker Studio 2**.
    - GameMaker will load all rooms, objects, sprites, and scripts.
 
 4. **Run the base template**  
-   - Press **Play** (Run) in GameMaker to test **EDUMING 1 [PCLQ]**.  
+   - Press **Play** (Run) in GameMaker to test the **EDUMING 1 template**.  
    - You can now play the arena shooter with the current learning mechanic.
 
 5. **Create your own variant**  
@@ -165,7 +167,8 @@ If you want to publish a **performance-optimized build via YYC (YoYo Compiler)**
 
 ## License
 
-- **Code:** Licensed under the **MIT License**. See `LICENSE`.
+- **Code:** Licensed under the **MIT License**. See `LICENSE`.  
+  Parts of the core arena shooter logic are adapted from the official **“TwinStick Shooter”** template provided with **GameMaker Studio 2**.
 - **Assets (art, audio, fonts, logo, example GIFs, etc.):** Licensed under **CC BY-NC-ND** (Attribution–NonCommercial–NoDerivatives). See `ASSETS_LICENSE`.
 - **Sound Effects:** Unless otherwise noted, sound effects originate from [ZapSplat](https://www.zapsplat.com/). If you use these SFX in your project or derivative works, you **must** include a visible reference to the site in your credits (e.g., “Sound effects by ZapSplat.com”).
 
