@@ -169,7 +169,7 @@ If you want to publish a **performance-optimized build via YYC (YoYo Compiler)**
 
 - **Code:** Licensed under the **MIT License**. See `LICENSE`.  
   Parts of the core arena shooter logic are adapted from the official **“TwinStick Shooter”** template provided with **GameMaker Studio 2**.
-- **Assets (art, audio, fonts, logo, example GIFs, etc.):** Licensed under **CC BY-NC-ND** (Attribution–NonCommercial–NoDerivatives). See `ASSETS_LICENSE`.
+- **Assets from this template are (art, audio, fonts, logo, etc.):** Licensed under **CC BY-NC-ND** 
 - **Sound Effects:** Unless otherwise noted, sound effects originate from [ZapSplat](https://www.zapsplat.com/). If you use these SFX in your project or derivative works, you **must** include a visible reference to the site in your credits (e.g., “Sound effects by ZapSplat.com”).
 
 > **Note:** You may use/modify the code freely under MIT, but the assets are **not** free for commercial use or redistribution/modification. Replace or remove any proprietary assets before publishing builds.
