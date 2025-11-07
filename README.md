@@ -81,7 +81,7 @@ Below is a short description of the key objects and what each one does.
 28. `obj_LetterDropMOBILE` - Mobile/touch HUD for letter-drop; handles taps and clears delivery flags.
 29. `obj_level_ground` — Ground tile holder for the arena grid.
 30. `obj_level_wall` - Wall tile that selects the correct face sprite per corner/edge/gap.
-31. `obj_MissingLetter` - Core "choose the correct initial letter" mini-game; validates delivered letters, awards score, triggers the donut reward.
+31. `obj_missing_letter` - Core "choose the correct initial letter" mini-game; validates delivered letters, awards score, triggers the donut reward.
 32. `obj_obstacle` - Decorative/cover elements that participate in collision/repulsion.
 33. `obj_paper` - Small ambient prop with randomized sprite/scale.
 34. `obj_particle_handler` - Generic particle/VFX helper (e.g., smoke/trail hooks).
@@ -127,7 +127,7 @@ To use this template, you only need **GameMaker Studio 2**.
 
 5. **Create your own variant**  
    - Duplicate this project or create a new branch/fork.  
-   - Adapt objects (e.g. `obj_MissingLetter`, `obj_game_manager`, `obj_Letter`, `obj_DZ`, `obj_Robo`) and assets to match your learning goals.  
+   - Adapt objects (e.g. `obj_missing_letter`, `obj_game_manager`, `obj_Letter`, `obj_DZ`, `obj_Robo`) and assets to match your learning goals.  
    - When you are ready, you can publish your version to **GX.GAMES** (see section *Publish to GX.GAMES*).
 
 ### Optional: AI-assisted code analysis and refactoring
@@ -144,7 +144,7 @@ If you would like to analyze or adapt the project with AI tools (e.g. code assis
 
 If you want to adapt the current spelling mechanic:
 
-- Start with `obj_MissingLetter` (letter task logic) and `obj_game_manager` (overall game and wave setup).  
+- Start with `obj_missing_letter` (letter task logic) and `obj_game_manager` (overall game and wave setup).  
 - Replace the letter set and task logic to work with:
   - numbers (e.g. collect the correct result),
   - vocabulary (e.g. first letter of a word),
