@@ -65,9 +65,9 @@ Below is a short description of the key objects and what each one does.
 12. `obj_button_reload` - Orders the player to reload if applicable.
 13. `obj_button_retry` - Restarts the gameplay room after a loss.
 14. `obj_button_sound` - Global audio mute/volume toggle with sprite feedback.
-15. `obj_ButtonQuitHTP` - Closes the "How-to-play" overlay, resets tutorial state, then destroys itself.
-16. `obj_Donut` - Donut reward toggle for the letter task; reveals with bobbing motion and a short SFX.
-17. `obj_DZ` - Central Drop Zone (EDUMING) used as the delivery/target area for the letter task.
+15. `obj_button_quit_htp` - Closes the "How-to-play" overlay, resets tutorial state, then destroys itself.
+16. `obj_donut` - Donut reward toggle for the letter task; reveals with bobbing motion and a short SFX.
+17. `obj_dz` - Central Drop Zone (EDUMING) used as the delivery/target area for the letter task.
 18. `obj_enemy` - Core enemy AI: seeks player, separates from other enemies, navigates obstacles, takes damage, dies into `obj_enemy_dead`.
 19. `obj_enemy_dead` - Death/VFX carrier that plays an effect and cleans itself up.
 20. `obj_enemy_indicator` - Off-screen arrow pointing toward tracked enemies; fades in/out.
@@ -76,9 +76,9 @@ Below is a short description of the key objects and what each one does.
 23. `obj_joystick` - On-screen virtual joystick base; provides touch axes.
 24. `obj_joystick_left` - Left joystick anchor for movement.
 25. `obj_joystick_right` - Right joystick anchor for aiming/shooting.
-26. `obj_Letter` - Floating letter visual/pickup with jitter/glow; self-destructs on timer.
-27. `obj_LetterDropHUD` - Desktop HUD hint for letter-drop; follows camera and fades based on flags.
-28. `obj_LetterDropMOBILE` - Mobile/touch HUD for letter-drop; handles taps and clears delivery flags.
+26. `obj_letter` - Floating letter visual/pickup with jitter/glow; self-destructs on timer.
+27. `obj_letter_drop_hud` - Desktop HUD hint for letter-drop; follows camera and fades based on flags.
+28. `obj_letter_drop_mobile` - Mobile/touch HUD for letter-drop; handles taps and clears delivery flags.
 29. `obj_level_ground` — Ground tile holder for the arena grid.
 30. `obj_level_wall` - Wall tile that selects the correct face sprite per corner/edge/gap.
 31. `obj_missing_letter` - Core "choose the correct initial letter" mini-game; validates delivered letters, awards score, triggers the donut reward.
@@ -89,13 +89,13 @@ Below is a short description of the key objects and what each one does.
 36. `obj_player_shoot` - Fire control: rate-limits shots, spawns projectiles, triggers muzzle VFX/SFX.
 37. `obj_projectile` - Bullet logic: travel/rotation, damage, hit effects, screen shake, self-destruct on impact.
 38. `obj_reload_hud_element` - Reload prompt that follows the player and fades in/out.
-39. `obj_Robo` - Companion/NPC: idle bob; switches to a celebratory "love" state when the letter task is completed; pauses when the game is paused.
-40. `obj_RoboButton` - Button that opens/sequences the "How-to-play" tutorial; hover/click scaling & SFX.
-41. `obj_Screenshake` - Camera shaker that jitters for a duration and then recenters smoothly.
+39. `obj_robo` - Companion/NPC: idle bob; switches to a celebratory "love" state when the letter task is completed; pauses when the game is paused.
+40. `obj_robo_button` - Button that opens/sequences the "How-to-play" tutorial; hover/click scaling & SFX.
+41. `obj_screenshake` - Camera shaker that jitters for a duration and then recenters smoothly.
 42. `obj_splash_manager` - Splash/main-menu controller: intro sequence, cursor handling, leaderboard panel, persistent high-score load/create.
 43. `obj_touch_manager` - Touch router that assigns touches to the nearest joystick and forwards input.
-44. `obj_TransitionMain` - General room-transition orchestrator; animates effect, performs `room_goto`, cleans up.
-45. `obj_TransitionPixel` - Pixelation transition used when switching rooms (e.g., arena ↔ main menu).
+44. `obj_transition_main` - General room-transition orchestrator; animates effect, performs `room_goto`, cleans up.
+45. `obj_transition_pixel` - Pixelation transition used when switching rooms (e.g., arena ↔ main menu).
 
 ---
 
