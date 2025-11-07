@@ -127,7 +127,7 @@ To use this template, you only need **GameMaker Studio 2**.
 
 5. **Create your own variant**  
    - Duplicate this project or create a new branch/fork.  
-   - Adapt objects (e.g. `obj_missing_letter`, `obj_game_manager`, `obj_Letter`, `obj_DZ`, `obj_Robo`) and assets to match your learning goals.  
+   - Adapt objects (e.g. `obj_missing_letter`, `obj_game_manager`, `obj_letter`, `obj_dz`, `obj_robo`) and assets to match your learning goals.  
    - When you are ready, you can publish your version to **GX.GAMES** (see section *Publish to GX.GAMES*).
 
 ### Optional: AI-assisted code analysis and refactoring
