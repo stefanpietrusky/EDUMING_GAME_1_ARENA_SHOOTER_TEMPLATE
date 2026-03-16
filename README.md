@@ -38,12 +38,12 @@ You can try a customized example of **EDUMING 1 [PCLQ]** directly in the browser
 The current template implements a **Fetch-and-Deliver** learning mechanic:
 
 - The player moves through an arena and destroys enemies.  
-- Defeated enemies drop **letters** that represent potential answers.  
-- A task in the HUD indicates **which letter is currently required**.  
+- Defeated enemies drop **letters (A, B and C)** that represent potential options for answers.  
+- A multiple choice question in the HUD indicates **which letter is currently required**.  
 - The player must pick up the correct letter and deliver it to the central **Drop Zone**.  
-- Correct deliveries award additional points; incorrect deliveries may deduct points.
+- Correct deliveries award additional points, incorrect deliveries may deduct points.
 
-In this version, the focus is on **spelling and initial letter recognition**, but the mechanic is designed as a reusable pattern. By adjusting the objects, variables and assets, the same template can be adapted for numbers, vocabulary, or completely different subject areas.
+In this version, there are only three quetions, but the mechanic is designed as a reusable pattern. By adjusting the objects, variables and assets, the same template can be adapted for numbers, vocabulary, or completely different subject areas.
 
 ---
 
@@ -66,13 +66,13 @@ Below is a short description of the key objects and what each one does.
 13. `obj_button_retry` - Restarts the gameplay room after a loss.
 14. `obj_button_sound` - Global audio mute/volume toggle with sprite feedback.
 15. `obj_button_quit_htp` - Closes the "How-to-play" overlay, resets tutorial state, then destroys itself.
-16. `obj_donut` - Donut reward toggle for the letter task; reveals with bobbing motion and a short SFX.
+16. `obj_heart` - Heart reward toggle for the letter task; reveals with bobbing motion and a short SFX.
 17. `obj_dz` - Central Drop Zone (EDUMING) used as the delivery/target area for the letter task.
 18. `obj_enemy` - Core enemy AI: seeks player, separates from other enemies, navigates obstacles, takes damage, dies into `obj_enemy_dead`.
 19. `obj_enemy_dead` - Death/VFX carrier that plays an effect and cleans itself up.
 20. `obj_enemy_indicator` - Off-screen arrow pointing toward tracked enemies; fades in/out.
 21. `obj_enemy_spawner` - Spawns enemies at arena edges with cooldown and on-screen caps.
-22. `obj_game_manager` - The director: seeds RNG, music, HUD, arena grid, waves, and `GAME_STATE`; creates UI/touch controls and sets up the letter mini-task (Donut, Robo, Dropzone).
+22. `obj_game_manager` - The director: seeds RNG, music, HUD, arena grid, waves, and `GAME_STATE`; creates UI/touch controls and sets up the letter mini-task (Heart, Robo, Dropzone).
 23. `obj_joystick` - On-screen virtual joystick base; provides touch axes.
 24. `obj_joystick_left` - Left joystick anchor for movement.
 25. `obj_joystick_right` - Right joystick anchor for aiming/shooting.
@@ -81,7 +81,7 @@ Below is a short description of the key objects and what each one does.
 28. `obj_letter_drop_mobile` - Mobile/touch HUD for letter-drop; handles taps and clears delivery flags.
 29. `obj_level_ground` — Ground tile holder for the arena grid.
 30. `obj_level_wall` - Wall tile that selects the correct face sprite per corner/edge/gap.
-31. `obj_missing_letter` - Core "choose the correct initial letter" mini-game; validates delivered letters, awards score, triggers the donut reward.
+31. `obj_missing_letter` - Core "choose the correct initial letter" mini-game; validates delivered letters, awards score, triggers the heart reward.
 32. `obj_obstacle` - Decorative/cover elements that participate in collision/repulsion.
 33. `obj_paper` - Small ambient prop with randomized sprite/scale.
 34. `obj_particle_handler` - Generic particle/VFX helper (e.g., smoke/trail hooks).
@@ -101,7 +101,7 @@ Below is a short description of the key objects and what each one does.
 
 ## Requirements
 
-- **GameMaker Studio 2** Depending on your system, you can download a free version. See the official GameMaker website for details and installers [Link](https://gamemaker.io/en)
+- **GameMaker Studio 2** Depending on your system, you can download a free version. See the official GameMaker website for details and installers [Link](https://gamemaker.io/en). Currently, you should use IDE version v2024.14.2.213, as there are issues where prefabs and IDE packages do not appear to be installed or recognized reliably.
 
 ## Getting Started
 
