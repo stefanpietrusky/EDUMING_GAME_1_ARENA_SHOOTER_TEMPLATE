@@ -26,20 +26,6 @@ if (obj_game_manager.curr_game_state == GAME_STATE.PLAYING)
 	obj_player.C = false;
 	}	
 	
-	if (obj_player.letters) && (obj_player.D) 
-	{
-	obj_player.deliverD = false;
-	obj_player.letters = false;
-	obj_player.D = false;
-	}	
-
-	if (obj_player.letters) && (obj_player.E) 
-	{
-	obj_player.deliverE = false;
-	obj_player.letters = false;
-	obj_player.E = false;
-	}	
-
 	is_pressed = true;
 	target_scale = 0.9;
 	scale_rate = 0.9;

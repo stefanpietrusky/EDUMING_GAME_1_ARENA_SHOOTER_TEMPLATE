@@ -1,13 +1,16 @@
-var _missingletter_sprite = []; 
+var neuer_index = irandom(array_length(fragenpool) - 1);
 
-_missingletter_sprite[0] = sApfel; 
-_missingletter_sprite[1] = sBall;
-_missingletter_sprite[2] = sClown;
-_missingletter_sprite[3] = sBurger;
-_missingletter_sprite[4] = sHerz;
-_missingletter_sprite[5] = sFrosch;
+if (array_length(fragenpool) > 1) {
+    while (neuer_index == letzter_frage_index) {
+        neuer_index = irandom(array_length(fragenpool) - 1);
+    }
+}
 
-sprite_index = _missingletter_sprite[irandom_range(0, 5)]; 
+letzter_frage_index = neuer_index;
+frage_aktuell = fragenpool[neuer_index];
+
 letterscore = false;
 soundwrong = -1;
 soundright = -1;
+feedback_text = "";
+feedback_farbe = c_white;

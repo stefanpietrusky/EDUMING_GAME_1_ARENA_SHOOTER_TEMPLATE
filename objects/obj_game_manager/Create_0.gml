@@ -205,7 +205,7 @@ _player.gun_angle = 270;
 
 instance_create_layer((arena_grid_width * cell_width) / 2, (arena_grid_height * cell_height) / 2,"DZ", obj_dz);
 
-instance_create_layer(((arena_grid_width * cell_width) / 2)-270, (arena_grid_height * cell_height) / 2,"DZ", obj_donut);
+instance_create_layer(((arena_grid_width * cell_width) / 2)-270, (arena_grid_height * cell_height) / 2,"DZ", obj_heart);
 
 instance_create_layer(((arena_grid_width * cell_width) / 2)+285, ((arena_grid_height * cell_height) / 2)-15, "DZ", obj_robo);
 

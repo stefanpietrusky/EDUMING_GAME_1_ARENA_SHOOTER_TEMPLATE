@@ -93,23 +93,16 @@ if (obj_game_manager.curr_game_state != GAME_STATE.PAUSED)
 				}
 	
 				if ((keyboard_check(ord("X")) || mouse_check_button(mb_right) || gamepad_button_check(player_local_id, gp_face2)) && letters)
-				{
-					obj_player.deliverA = false;
-					obj_player.letters = false;
-					obj_player.A = false;
-					obj_player.deliverB = false;
-					obj_player.letters = false;
-					obj_player.B = false;
-					obj_player.deliverC = false;
-					obj_player.letters = false;
-					obj_player.C = false;
-					obj_player.deliverD = false;
-					obj_player.letters = false;
-					obj_player.D = false;
-					obj_player.deliverE = false;
-					obj_player.letters = false;
-					obj_player.E = false;											
-				}
+                {
+                    obj_player.deliverA = false;
+                    obj_player.deliverB = false;
+                    obj_player.deliverC = false;
+                
+                    obj_player.letters = false;
+                    obj_player.A = false;
+                    obj_player.B = false;
+                    obj_player.C = false;
+                }
 													
 				if (keyboard_check(vk_space) || mouse_check_button(mb_left))
 				{

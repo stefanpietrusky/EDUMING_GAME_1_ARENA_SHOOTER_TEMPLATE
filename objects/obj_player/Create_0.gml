@@ -36,14 +36,9 @@ letters_stt = {};
 A = false;
 B = false;
 C = false;
-D = false;
-E = false;
 deliverA = false;
 deliverB = false;
 deliverC = false;
-deliverD = false;
-deliverE = false;
-
 
 create_projectile = function(_gun_angle)
 {
